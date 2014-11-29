@@ -32,8 +32,7 @@
 		</article>
 	</section>
 	<section id="contenedor">
-		kfkjf;a
-		
+		<article>&nbsp;</article>
 	</section>
 	<footer>
 		

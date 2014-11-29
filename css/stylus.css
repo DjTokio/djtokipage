@@ -431,7 +431,7 @@ th {
 }
 /* EMPIEZAN ESTILOS PROPIOS */
 body{
-  background: rgba(189, 195, 199,1.0);
+  background: rgba(189, 195, 199,.3);
   width: 100%;
   height: 100%;
   font-family: 'Bree Serif', serif;
@@ -452,12 +452,15 @@ header figure img {
 section.djtokio{
   background: url(../sources/images/cabezera/cabezera.jpg) 50% 0 no-repeat fixed;
 }
+section#contenedor article{
+  background: url(../sources/images/cabezera/cabezera1.jpg) 50% 0 no-repeat fixed;
+}
 section.djtokio article{
   color: rgba(255,255,255,1);
   padding: 25% 0 0 25%;
   
 }
-section.djtokio,section#contenedor{
+section.djtokio,section#contenedor article{
   margin: 0px auto;
   min-height: 700px;
   position: relative;

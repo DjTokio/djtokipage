@@ -10,19 +10,20 @@ $(document).on('ready',function(){
 		})
 	})
 
+	function recarga(){
+		
+			$('#musica').click(function() {
+				$('.djtokio > article').load("contenido/musica/musica.php");
+			});
+			$('#videos').click(function() {
+				$('#contenedor').load("contenido/videos/videos.php");
+			});
+			$('#contacto').click(function() {
+				$('#contenedor').load("contenido/contacto/contacto.php");
+			});
+	};
+	return recarga();
 	
 });
-function recarga(){
-	
-		$('#musica').click(function() {
-			$('#contenedor').load("contenido/musica/musica.php");
-		});
-		$('#videos').click(function() {
-			$('#contenedor').load("contenido/videos/videos.php");
-		});
-		$('#contacto').click(function() {
-			$('#contenedor').load("contenido/contacto/contacto.php");
-		});
-};
 
 	
