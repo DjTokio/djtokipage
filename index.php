@@ -38,7 +38,7 @@
 		
 	</footer>
 	<script type="text/javascript">
-	recarga();	
+	Recarga();	
 	</script>
 </body>
 </html>
