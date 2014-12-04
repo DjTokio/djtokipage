@@ -1,64 +1,48 @@
 <article  class="cname">
-	<div>Me llamo cancion</div>
-	<p>nose que poner aqui, asi que pongo esto</p>
+	<div><img src="sources/images/discos/disco.jpg" alt="disco"></div>
+	<h2>Nombre del album</h2>
 </article>
 <article  class="cname">
-	<div>Me llamo cancion</div>
-	<p>nose que poner aqui, asi que pongo esto</p>
+	<div><img src="sources/images/discos/disco.jpg" alt="disco"></div>
+	<h2>Nombre del album</h2>
 </article>
 <article  class="cname">
-	<div>Me llamo cancion</div>
-	<p>nose que poner aqui, asi que pongo esto</p>
+	<div><img src="sources/images/discos/disco.jpg" alt="disco"></div>
+	<h2>Nombre del album</h2>	
 </article>
 <article  class="cname">
-	<div>Me llamo cancion</div>
-	<p>nose que poner aqui, asi que pongo esto</p>
+	<div><img src="sources/images/discos/disco.jpg" alt="disco"></div>
+	<h2>Nombre del album</h2>
 </article>
 <article  class="cname">
-	<div>Me llamo cancion</div>
-	<p>nose que poner aqui, asi que pongo esto</p>
+	<div><img src="sources/images/discos/disco.jpg" alt="disco"></div>
+	<h2>Nombre del album</h2>
 </article>
 <article  class="cname">
-	<div>Me llamo cancion</div>
-	<p>nose que poner aqui, asi que pongo esto</p>
+	<div><img src="sources/images/discos/disco.jpg" alt="disco"></div>
+	<h2>Nombre del album</h2>	
 </article>
 <article  class="cname">
-	<div>Me llamo cancion</div>
-	<p>nose que poner aqui, asi que pongo esto</p>
+	<div><img src="sources/images/discos/disco.jpg" alt="disco"></div>
+	<h2>Nombre del album</h2>
 </article>
 <article  class="cname">
-	<div>Me llamo cancion</div>
-	<p>nose que poner aqui, asi que pongo esto</p>
+	<div><img src="sources/images/discos/disco.jpg" alt="disco"></div>
+	<h2>Nombre del album</h2>
 </article>
 <article  class="cname">
-	<div>Me llamo cancion</div>
-	<p>nose que poner aqui, asi que pongo esto</p>
+	<div><img src="sources/images/discos/disco.jpg" alt="disco"></div>
+	<h2>Nombre del album</h2>	
 </article>
 <article  class="cname">
-	<div>Me llamo cancion</div>
-	<p>nose que poner aqui, asi que pongo esto</p>
+	<div><img src="sources/images/discos/disco.jpg" alt="disco"></div>
+	<h2>Nombre del album</h2>
 </article>
 <article  class="cname">
-	<div>Me llamo cancion</div>
-	<p>nose que poner aqui, asi que pongo esto</p>
+	<div><img src="sources/images/discos/disco.jpg" alt="disco"></div>
+	<h2>Nombre del album</h2>
 </article>
 <article  class="cname">
-	<div>Me llamo cancion</div>
-	<p>nose que poner aqui, asi que pongo esto</p>
-</article>
-<article  class="cname">
-	<div>Me llamo cancion</div>
-	<p>nose que poner aqui, asi que pongo esto</p>
-</article>
-<article  class="cname">
-	<div>Me llamo cancion</div>
-	<p>nose que poner aqui, asi que pongo esto</p>
-</article>
-<article  class="cname">
-	<div>Me llamo cancion</div>
-	<p>nose que poner aqui, asi que pongo esto</p>
-</article>
-<article  class="cname">
-	<div>Me llamo cancion</div>
-	<p>nose que poner aqui, asi que pongo esto</p>
+	<div><img src="sources/images/discos/disco.jpg" alt="disco"></div>
+	<h2>Nombre del album</h2>	
 </article>
