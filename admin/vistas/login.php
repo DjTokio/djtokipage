@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/stylus.css">
 </head>
 <body>
-	<form>
+	<form method="POST" action="validar.php">
 		<p class="admin">Admin Panel</p>
 		<p>
 			<input type="text" name="usuario" id="usuario" placeholder="Usuario"/>
@@ -16,8 +16,7 @@
 		<p>
 			<input type="password" name="password" id="password" placeholder="Contraseña" />
 		</p>
-		<input type="button" value="Entrar" name="Entrar" />
+		<input type="submit" value="Entrar" name="Entrar" />
 	</form>
-	<?php echo "$_GET[url]"; ?>
 </body>
 </html>
