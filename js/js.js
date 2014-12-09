@@ -1,17 +1,31 @@
 $(document).on('ready',function(){
-		ScrollParallax();
-		function ScrollParallax () {
-			$('section[data-type="parallax_section"]').each(function(){
-			var $obj = $(this);
-			$(window).scroll(function(){
-				$window = $(window);
-				var yPos = -($window.scrollTop() / $obj.data('speed'));
-				var coords = '50%'+yPos+'px';
+			if (window.innerWidth < 1025) {
+			MenuDesplegable();	
+			function MenuDesplegable(){
 
-				$obj.css({backgroundPosition:coords});
-			})
-		});
-		};
+				var menu_ul = $('ul > li > ul'), //Variable para seleccionar el menu
+		        menu_a  = $('ul > li > a');
+		    
+			    menu_ul.hide(); // Al iniciar la web se oculta el menu seleccionado
+			    menu_a.click(function(e){ 
+		    	e.preventDefault();//Aquí estamos evitando las etiquetas de anclaje de seguir cualquier enlace o cambio de la dirección en la barra de direcciones. por ejemplo, si alguna vez crear una etiqueta de ancla con un enlace de '#', al hacer clic en él, no se mostrará en la barra de direcciones ahora. Las etiquetas de anclaje son básicamente desactivados. 
+		    	if (!$(this).hasClass('activo')) {
+		    		$(this).removeClass('activo');//Si ya contenia la clase activo, se hara un retiro de la clase.
+		    		menu_ul.filter(":visible").slideUp("normal"); //Si un menu se encontraba abierto se cerrara con filter 
+		    		$(this).addClass('activo').next().stop(true,true).slideDown('normal'); //Si habia un menu y estaba cerrado o se habre uno nuevo, se le agrega la clase y se desliza hacia abajo
+
+		    	}else{ //Ahora, tendremos que utilizar un ELSE como parte de nuestra sentencia condicional. Por lo tanto, eliminar ELSE la clase activa, y desliza el menú hasta ocultarlo. Esto es sólo para que podamos codificar cualquier menú sin tener que recargar la página. 
+		    		$(this).removeClass('activo');
+		    		$(this).next().stop(true,true).slideUp('normal');
+	    		};
+    			});
+				};
+				$(".computador").remove();
+				$(".compinfo").remove();
+			}else if(window.innerWidth > 1025){
+				$(".movil").remove();
+				$(".movilinf").remove();
+			}
 		musicplaylist();
 		function musicplaylist () {
 				var audio;
