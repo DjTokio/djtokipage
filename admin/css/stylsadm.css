@@ -1,0 +1,26 @@
+a{
+	color: rgba(195, 195, 195, 0.96);
+	text-decoration: none;
+}
+body{
+  background: rgba(255,255,255,1);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+header{
+	background: #000;
+	height: 100%;
+	position: fixed;
+	width: 25%;
+}
+header nav ul li, header nav ul li ul li{
+	list-style: none;
+	margin: 0 0 .8em 0;
+}
+header p{
+	color: rgba(255, 123, 123, 0.91);
+	margin: 0;
+}
+header span{
+	color: rgba(195, 195, 195, 0.96);
+}

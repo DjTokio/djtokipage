@@ -1,5 +1,5 @@
 <?php 
-
+session_start();
 require "configuracion/config.php";
 require "ayudantes.php";
 

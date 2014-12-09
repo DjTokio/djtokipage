@@ -1,7 +1,6 @@
-<?php 
-require "configuracion/config.php";
-
-
+<?php
+session_start();
+require "configuracion/config.php";	
 if (isset($_POST['Entrar'])=='Entrar') {
 		$usuario=$_POST['usuario'];
 		$password=$_POST['password'];
@@ -11,7 +10,7 @@ if (isset($_POST['Entrar'])=='Entrar') {
 				$row=mysqli_fetch_assoc($comprobar);
 				$_SESSION['username'] = $row['Adm_User'];
 				$_SESSION['logged'] = TRUE;
-				header("Location: index.php?entraste=1");
+				header("Location: index.php");
 			}
 			else
 			{

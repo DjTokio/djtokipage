@@ -1,5 +1,4 @@
 $(document).on('ready',function(){
-			if (window.innerWidth < 1025) {
 			MenuDesplegable();	
 			function MenuDesplegable(){
 
@@ -20,12 +19,6 @@ $(document).on('ready',function(){
 	    		};
     			});
 				};
-				$(".computador").remove();
-				$(".compinfo").remove();
-			}else if(window.innerWidth > 1025){
-				$(".movil").remove();
-				$(".movilinf").remove();
-			}
 		musicplaylist();
 		function musicplaylist () {
 				var audio;

@@ -27,7 +27,7 @@
 		</nav>
 		<nav class="movil">
 			<ul>
-				<li><a href="#" class="icon-menu"></a>
+				<li><span class="icon-menu"></span>
 					<ul>
 						<li><a href="#" class="icon-musica">MUSICA</a></li>
 						<li><a href="#" class="icon-video">VIDEOS</a></li>
