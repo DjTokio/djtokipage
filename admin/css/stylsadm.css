@@ -1,5 +1,5 @@
 a{
-	color: rgba(195, 195, 195, 0.96);
+	color: rgba(236, 240, 241,1.0);
 	text-decoration: none;
 }
 body{
@@ -8,9 +8,10 @@ body{
   font-size: 16px;
 }
 header{
-	background: #000;
+	background: rgba(44, 62, 80,1.0);
 	height: 100%;
 	position: fixed;
+	top:0;
 	width: 25%;
 }
 header nav ul li, header nav ul li ul li{
@@ -18,9 +19,12 @@ header nav ul li, header nav ul li ul li{
 	margin: 0 0 .8em 0;
 }
 header p{
-	color: rgba(255, 123, 123, 0.91);
+	color: rgba(189, 195, 199,1.0);
 	margin: 0;
 }
 header span{
-	color: rgba(195, 195, 195, 0.96);
+	color: rgba(236, 240, 241,1.0);
+}
+section{
+	margin: 0 0 0 25%;
 }

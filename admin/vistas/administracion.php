@@ -46,5 +46,25 @@
 			</ul>
 		</nav>
 	</header>
+	<section>
+		<h2>
+			Este es el panel de administración
+		</h2>
+		<p>
+			A este panel solo pueden acceder los administradores de la web
+		</p>
+		<h2>
+			¿Que se puede hacer en este panel?
+		</h2>
+		<p>
+			En este panel de administración puede manejar las imagenes, los textos de la web, el cambio de redes sociales y el cambio de servidor
+		</p>
+		<h2>
+			¿Como funciona el cambio de textos, imagenes y demás?
+		</h2>
+		<p>
+			Lo intente hacer lo más fácil y sencillo posible para el entendimiento del usuario, así si quieren cambiar una imagen, solo tienen que ver que imagen se cambiara y que parte de la web cambiara. Se recomiendan imagenes de 1080Pixeles(Hd).
+		</p>
+	</section>
 </body>
 </html>

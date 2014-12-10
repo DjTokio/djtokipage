@@ -5,7 +5,7 @@ if (isset($_POST['Entrar'])=='Entrar') {
 		$usuario=$_POST['usuario'];
 		$password=$_POST['password'];
 		if (!empty($usuario) && $password) {
-			$comprobar = mysqli_query($connection, "SELECT * FROM tokio_admuser WHERE Adm_User ='".$usuario."' AND Adm_Pass = '".$password."'")or die(mysqli_error($connection));
+			$comprobar = mysqli_query($connection, "SELECT * FROM tokio_users WHERE Adm_User ='".$usuario."' AND Adm_Pass = '".$password."'")or die(mysqli_error($connection));
 			if (mysqli_num_rows($comprobar)== 1) {
 				$row=mysqli_fetch_assoc($comprobar);
 				$_SESSION['username'] = $row['Adm_User'];
