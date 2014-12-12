@@ -39,7 +39,7 @@ $(document).on('ready',function(){
 				playlist=$('#playlist');
 				tracks=playlist.find('li a');
 				len=tracks.length-1;
-				audio[0].volume=.5;
+				audio[0].volume=".5";
 				audio[0].autoplay=false;
 				playlist.find('a').click(function(e){
 					e.preventDefault();
