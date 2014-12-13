@@ -7,13 +7,13 @@ function vista($plantilla, $vars = array()){
 function controlador($url){
 	$file = "controlador/$url.php";
 	if (file_exists($file))
-	{
-		require $file;
+	{ 
+		require "vistas/vistaini.php";
 	}
 	else
 	{
 		$url="inicio";
 		$file = "controlador/$url.php";
-		require $file;
+		require "vistas/vistaini.php";
 	}
 }

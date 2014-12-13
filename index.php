@@ -7,4 +7,4 @@ require 'ayudantes.php';
 if (empty($_GET['url'])) {
 	$_GET['url']="inicio";
 }
-	controlador($_GET['url']);
+controlador($_GET['url']);
