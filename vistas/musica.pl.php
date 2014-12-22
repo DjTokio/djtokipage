@@ -1,14 +1,15 @@
 	<div class="music">
-		<div id="reproductorBox">
-		</div>
-		<select  id = "selectTrack" multiple onchange="cambiarTrack(this.options[this.selectedIndex]);">
-			<option path="music/a.mp3">Invierno del 92</option>
-			<option path="music/b.mp3">El dia que artigas se emborachó</option>
-			<option path="music/c.mp3">Invierno del 92</option>
-			<option path="music/d.mp3">El dia que artigas se emborachó</option>
-
-		</select>
-		<script>cargarReproductor();</script>
+		<object type="application/x-shockwave-flash" data="dewplayer-playlist.swf" width="240" height="200" id="dewplayer" name="dewplayer">
+			<param name="wmode" value="transparent" />
+			<param name="movie" value="dewplayer-playlist.swf" />
+			<param name="flashvars" value="showtime=true&autoreplay=true&xml=playlist.php" />
+		</object>
 	</div>
-</body>
-</html>
+	<div class="musicm">
+		<article>
+			<a href=""><h2 class="title">Nombre del album</h2></a>
+			<figure>
+				<a href=""><img src="sources/images/discos/disco.jpg" alt="albm"></a>
+			</figure>
+		</article>
+	</div>

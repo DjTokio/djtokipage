@@ -259,6 +259,11 @@ footer p:before{
 }
 .music select{
   background: rgba(0,0,0,0);
+  overflow:hidden;
+  width: 100%;
+}
+.music select option{
+  display: inline-block;
 }
 /* Triangulos */
 .triangulo_izq {
@@ -336,7 +341,7 @@ footer p:before{
     width: 100%;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1334px) {
    header{
     overflow: hidden;
   }
